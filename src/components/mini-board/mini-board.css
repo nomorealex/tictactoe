@@ -1,0 +1,71 @@
+.miniBoard {
+  width: auto;
+  margin: 0 auto;
+  grid-template-columns: auto auto auto;
+  display: grid;
+  justify-content: center;
+  perspective: 1000px;
+  user-select: none;
+  padding: 20px;
+  border: 2px solid transparent;
+}
+
+.playerX {
+  border-color: rgb(255, 4, 4);
+  box-shadow: 1px 1px 15px rgb(255, 4, 4);
+}
+
+.playerO {
+  border-color: rgb(0, 24, 240);
+  box-shadow: 1px 1px 15px rgb(0, 24, 240);
+}
+
+.doneX {
+    font-family:  Helvetica, sans-serif;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    color: red;
+  }
+
+
+.doneO {
+    font-family:  Helvetica, sans-serif;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    color: rgb(0, 26, 255);
+  }
+
+.full{
+  font-family:  Helvetica, sans-serif;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10em;
+  color: rgb(246, 253, 53);
+}
+
+.none{
+  display: none;
+}

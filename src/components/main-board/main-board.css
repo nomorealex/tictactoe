@@ -1,0 +1,27 @@
+.show {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  width: auto;
+  margin: 0 auto;
+  row-gap: 5px;
+  column-gap: 10px;
+  perspective: 1000px;
+  user-select: none;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.hide {
+  display: none;
+}
+
+.notActive {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.notClicable {
+  pointer-events: none;
+  opacity: 0.9;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      90deg,
+      rgba(85, 81, 154, 1) 0%,
+      rgba(100, 58, 103, 1) 26%,
+      rgba(139, 11, 132, 1) 63%,
+      rgba(10, 98, 116, 1) 100%
+    )
+    fixed;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+select,
+label,
+button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+select,
+button {
+  cursor: pointer;
+}
+
+p {
+  font-size: 10px;
+}
+
